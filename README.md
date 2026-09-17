@@ -4,18 +4,11 @@
 
 Este proyecto realiza un análisis de un conjunto de datos relacionados con canciones y su popularidad.
 
-El programa utiliza Python y diferentes librerías para cargar, analizar y visualizar la información del dataset.
+El programa utiliza Python, Pandas, Matplotlib y Seaborn para cargar, analizar y visualizar la información.
 
 ## Dataset
 
-El dataset contiene información sobre canciones y artistas, incluyendo datos como:
-
-- Nombre del artista
-- Nombre de la canción
-- Semanas en listas
-- Posición máxima alcanzada
-- Streams
-- Letras de canciones
+El dataset contiene 8,058 registros y 10 columnas relacionadas con canciones y artistas.
 
 ## Tecnologías utilizadas
 
@@ -24,15 +17,24 @@ El dataset contiene información sobre canciones y artistas, incluyendo datos co
 - Matplotlib
 - Seaborn
 
-## Requisitos
+## Instalación
 
-Se recomienda utilizar un entorno virtual de Python para instalar las dependencias del proyecto.
-
-Las dependencias necesarias se encuentran en el archivo `requirements.txt`.
-
-## Ejecución
-
-Primero se debe activar el entorno virtual:
+Crear un entorno virtual:
 
 ```bash
-source .venv/bin/activate
+python3 -m venv .venv
+
+## Resultados
+
+El programa muestra información general del dataset, los artistas con más canciones y las canciones con mayor cantidad de streams.
+
+También genera dos gráficas:
+
+- `grafica_artistas.png`
+- `grafica_streams.png`
+
+El análisis encontró que el dataset contiene 8,058 registros y que el promedio de semanas en listas es de 15.51.
+
+## Autor
+
+Patry07
