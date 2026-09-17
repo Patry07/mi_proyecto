@@ -43,7 +43,8 @@ plt.title("Top 10 artistas con más canciones")
 plt.xlabel("Número de canciones")
 plt.ylabel("Artista")
 plt.tight_layout()
-plt.show()
+plt.savefig("grafica_artistas.png")
+plt.close()
 
 # Gráfica de las canciones con más streams
 plt.figure(figsize=(10, 6))
@@ -56,6 +57,7 @@ plt.title("Top 10 canciones con más streams")
 plt.xlabel("Streams")
 plt.ylabel("Canción")
 plt.tight_layout()
-plt.show()
+plt.savefig("grafica_streams.png")
+plt.close()
 
 print("\nAnálisis terminado correctamente.")
